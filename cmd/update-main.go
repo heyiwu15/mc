@@ -40,7 +40,7 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/minio/cli"
 	json "github.com/minio/colorjson"
-	"github.com/minio/mc/pkg/probe"
+	"github.com/heyiwu15/mc/pkg/probe"
 	"github.com/minio/pkg/v3/env"
 	"github.com/minio/selfupdate"
 )
@@ -194,7 +194,7 @@ func IsSourceBuild() bool {
 //	mc (<OS>; <ARCH>[; dcos][; kubernetes][; docker][; source]) mc/<VERSION> mc/<RELEASE-TAG> mc/<COMMIT-ID>
 //
 // Any change here should be discussed by opening an issue at
-// https://github.com/minio/mc/issues.
+// https://github.com/heyiwu15/mc/issues.
 func getUserAgent() string {
 	userAgentParts := []string{}
 	// Helper function to concisely append a pair of strings to a

@@ -24,7 +24,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/minio/cli"
-	"github.com/minio/mc/pkg/probe"
+	"github.com/heyiwu15/mc/pkg/probe"
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/pkg/v3/console"
 )

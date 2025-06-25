@@ -27,8 +27,8 @@ import (
 	"github.com/jedib0t/go-pretty/v6/text"
 	"github.com/minio/cli"
 	json "github.com/minio/colorjson"
-	"github.com/minio/mc/cmd/ilm"
-	"github.com/minio/mc/pkg/probe"
+	"github.com/heyiwu15/mc/cmd/ilm"
+	"github.com/heyiwu15/mc/pkg/probe"
 	"github.com/minio/minio-go/v7/pkg/lifecycle"
 )
 
